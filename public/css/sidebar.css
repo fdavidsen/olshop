@@ -1,0 +1,39 @@
+div.wrapper {
+	height: calc(100vh - 3.5rem);
+	width: 100%;
+}
+div.wrapper div.sidebar-wrapper {
+	height: 100%;
+	width: 15rem;
+	overflow-y: auto;
+	float: left;
+	margin-left: -15rem;
+}
+div.wrapper div.sidebar-wrapper div.heading {
+	padding: 0.875rem 1.25rem;
+	font-size: 1.2rem;
+}
+div.wrapper div.sidebar-wrapper p.title {
+	background-color: #b3ffb3;
+	font-style: italic;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	margin-top: .25rem;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+div.wrapper div.content-wrapper {
+	height: 100%;
+	width: 100%;
+	overflow-y: auto;
+	float: left;
+}
+div.wrapper div.content-wrapper div.content {
+	margin-bottom: 6rem;
+}
+div.wrapper div.sidebar-wrapper p:hover {
+	font-weight: bold;
+}
+div.wrapper div.sidebar-wrapper a:hover {
+	background-color: #f2f2f2;
+}
