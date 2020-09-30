@@ -6,7 +6,7 @@ $('#products-list').on('click', '.see-detail', function() {
   $.ajax({
   	url: baseURL + 'Home/getProductDetail/' + id,
   	dataType: 'JSON',
-  	type: 'POST',
+  	type: 'GET',
   	success: function(result) {
       result.productLibrary.forEach(function(item) {
         if (item.type == 'image') {
@@ -31,7 +31,7 @@ $('#product-detail').on('click', '.like', function() {
   $.ajax({
     url: baseURL + 'Home/likeProduct/' + id,
     dataType: 'JSON',
-    type: 'POST',
+    type: 'PUT',
     success: function(result) {
       $('#like-counts').html(result.likeCounts);
       $('.like').html(result.button);
