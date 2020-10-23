@@ -1,4 +1,4 @@
-# Olshop
+# Online Shop
 Website to manage creation and modification of online shop's contents that support multiple admins. It helps an online shop to maintain its products while customers are easy to look for certain products there. Customers are unnecessary to sign in to give a like to certain products.
 
 ## Sources of Sample Files
